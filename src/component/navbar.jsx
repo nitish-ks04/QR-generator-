@@ -12,6 +12,7 @@ function Navbar() {
       </div>
       <div className="nav-link">
         <button onClick={()=>navigate("/")}> Back</button>
+        <button onClick={()=>navigate("/history")}> history</button>
       </div>
     </nav>
   );

@@ -30,7 +30,8 @@ function Input() {
           value={value}
           onChange={(e) => setValue(e.target.value)}
         />
-        <button onClick={handleSubmit}>Save QR</button>
+        <button onClick={handleSubmit}className='url-but
+        '>Save QR</button>
       </div>
       <div className="thir-lay">
         <QRCode value={value} />

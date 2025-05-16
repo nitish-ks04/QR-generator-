@@ -1,0 +1,82 @@
+
+.history-container {
+  min-height: 100vh;
+  background-color: #f3f4f6; 
+  padding: 2.5rem 1rem; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3.125rem; 
+  text-align: center;
+}
+
+/* Main title */
+.history-title {
+  font-size: 1.875rem; 
+  font-weight: 700; 
+  margin-bottom: 3rem; 
+  color: #2c7a7b;
+}
+
+
+.table-wrapper {
+  max-width: 72rem; 
+  width: 100%;
+}
+
+.mb-large {
+  margin-bottom: 4rem; 
+}
+
+/* Table title */
+.table-title {
+  font-size: 1.5rem;
+  font-weight: 600; 
+  margin-bottom: 1rem; 
+  color: #2d3748;
+  text-align: center;
+}
+
+
+.table-scrollable {
+  overflow-x: auto;
+  background-color: #fff; 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  border-radius: 1rem;
+  border: 1px solid #d1d5db; 
+  padding: 0.5rem; 
+}
+
+/* Table styling */
+.history-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+  table-layout: auto;
+}
+
+/* Table head */
+.history-table thead {
+  background-color: #e5e7eb; 
+  color: #4a5568; 
+  font-weight: 600;
+}
+
+.history-table thead th {
+  padding: 1.5rem 1.5rem; 
+  border-bottom: 1px solid #d1d5db; 
+}
+
+/* Table body rows */
+.history-table tbody tr {
+  border-bottom: 1px solid #e5e7eb; 
+  transition: background-color 0.2s ease;
+}
+
+.history-table tbody tr:hover {
+  background-color: #f9fafb; 
+}
+
+.history-table tbody td {
+  padding: 1.5rem 1.5rem; 
+}

@@ -4,6 +4,7 @@ import Input from './page/input.jsx';
 import Textinput from './page/text-input.jsx';
 import "./css/App.css"
 import Navbar from './component/navbar.jsx';
+import History from './page/history.jsx';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/input" element={<Input />} />
           <Route path="/text-input" element={<Textinput />} />
+          <Route path="/history" element={<History />} />
         </Routes>
       </div>
     </div>

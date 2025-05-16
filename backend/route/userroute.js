@@ -24,4 +24,14 @@ routes.post("/urlqr", async (req, res) => {
     }
 });
 
+routes.get("/history",async(req,res)=>{
+    try{
+        const texthistory=await usertextQR.find()
+        const urlhistory=await userurlQR.find()
+        res.status(200).json({text:texthistory,url:urlhistory})
+    }catch(err){
+        res.status(500).json({message:"failed to join",error:err.message})
+    }
+})
+
 module.exports = routes;
