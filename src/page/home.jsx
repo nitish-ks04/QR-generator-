@@ -1,13 +1,19 @@
 import { useNavigate } from "react-router-dom";
 import "../css/home.css"
+import qrphoto from "../image/qrcode.png"
 
 function Home() {
     const navigate = useNavigate();
     return (
         <div className="home">
             <div className="home-1-lay">
-                <h1>welcome</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia quam porro accusantium vitae, ipsam modi nemo voluptate, dolorem cumque omnis error. Voluptates, omnis! Beatae, reprehenderit.</p>
+                <div className="home1-image">
+                    <img src={qrphoto} alt="qr photo" />
+                </div>
+                <div className="home1-content">
+                    <h1>welcome</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia quam porro accusantium vitae, ipsam modi nemo voluptate, dolorem cumque omnis error. Voluptates, omnis! Beatae, reprehenderit.</p>
+                </div>
             </div>
             <div className="home-2-lay">
                 <h2>Get QR Generate here</h2>
