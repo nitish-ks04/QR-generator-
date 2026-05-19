@@ -11,7 +11,7 @@ function Home() {
                     <img src={qrphoto} alt="qr photo" />
                 </div>
                 <div className="home1-content">
-                    <h1>welcome</h1>
+                    <h1>welcome </h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia quam porro accusantium vitae, ipsam modi nemo voluptate, dolorem cumque omnis error. Voluptates, omnis! Beatae, reprehenderit.</p>
                 </div>
             </div>
